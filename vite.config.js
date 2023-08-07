@@ -6,8 +6,5 @@ export default defineConfig({
   publicPath: process.env.NODE_ENV === 'production'
   ? '/weight-tracker/'
   : '/',
-  assetsPublicPath: process.env.NODE_ENV === 'production'
-  ? '/weight-tracker/'
-  : '/',
   plugins: [vue()],
 })
